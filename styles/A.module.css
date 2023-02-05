@@ -1,0 +1,79 @@
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 32px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.link:after {
+    display: block;
+    position: absolute;
+    top: 45;
+    left: 0;
+    /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;
+    /*задаём длинну линии до наведения курсора*/
+    height: 2px;
+    /*задаём ширину линии*/
+    background-color: #e6ff04;
+    /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out;
+    /*задаём время анимации*/
+}
+
+.link:hover:after,
+.link:focus:after {
+    width: 100%;
+    /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+@media (min-width: 428px) and (max-width: 575px) {
+    .link {
+        font-size: 13px;
+        margin-right: -2px;
+        margin-top: 5px;
+        margin-left: 9px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .link {
+        font-size: 15px;
+        margin-right: 0px;
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .link {
+        font-size: 20px;
+        margin-right: 2px;
+        margin-left: 5px;
+        margin-top: 3px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .link {
+        font-size: 23px;
+        margin-top: 4px;
+        margin-left: 5px;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+    .link {
+        font-size: 30px;
+    }
+}
+

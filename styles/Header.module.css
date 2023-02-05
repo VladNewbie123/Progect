@@ -1,0 +1,112 @@
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/shutterstock_730964005.jpg");
+    width: 100%;
+    min-width: 271px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.text {
+    height: 300px;
+    margin-left: 6%;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 800px;
+    text-align: justify;
+}
+
+.section {
+    padding-top: 10px;
+}
+
+@media (min-width:428px) and (max-width: 575px) {
+    .header {
+        height: 333px;
+
+    }
+    .text {
+        margin-top: 63px;
+        height: 193px;
+        margin-right: 12px;
+        font-size: 12px;
+        width: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        height: 356px;
+
+    }
+    .text {
+        margin-top: 48px;
+        height: 229px;
+        margin-right: 12px;
+        font-size: 16px;
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        height: 488px;
+
+    }
+    .text {
+        margin-top: 57px;
+        height: 353px;
+        font-size: 21px;
+        width: 574px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header {
+        height: 580px;
+
+    }
+    .text {
+        margin-top: 43px;
+        height: 353px;
+        font-size: 26px;
+        width: 705px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1370px){
+    .header {
+        height: 638px;
+
+    }
+    .text {
+        margin-top: 48px;
+        font-size: 27px;
+        width: 763px;
+    }
+}
+
+@media (min-width: 1371px) and (max-width: 1527px){
+    .header {
+        height: 638px;
+
+    }
+    .text {
+        margin-top: 48px;
+        font-size: 27px;
+        width: 763px;
+    }
+}
+
+@media (min-width: 1528px) and (max-width: 1920px){
+    .header {
+        height: 638px;
+
+    }
+    .text {
+        margin-top: 57px;
+        font-size: 27px;
+        width: 763px;
+    }
+
+}
