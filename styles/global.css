@@ -132,53 +132,53 @@ h3 {
 }
 
 .box:nth-of-type(1) {
-    background-image: url("/image.jpg");
+    background-image: url("public/image.jpg");
 }
 
 .box:nth-of-type(2) {
-    background-image: url("/image\ \(1\).jpg");
+    background-image: url("public/image (1).jpg");
 }
 
 .box:nth-of-type(3) {
-    background-image: url("/image\ \(2\).jpg");
+    background-image: url("public/image (2).jpg");
 }
 
 .box:nth-of-type(4) {
-    background-image: url("/image\ \(3\).jpg");
+    background-image: url("public/image (3).jpg");
 }
 
 .box:nth-of-type(5) {
-    background-image: url("/image\ \(4\).jpg");
+    background-image: url("public/image (4).jpg");
 }
 
 .box:nth-of-type(6) {
-    background-image: url("/image\ \(5\).jpg");
+    background-image: url("public/image (5).jpg");
 }
 
 .box:nth-of-type(7) {
-    background-image: url("/image\ \(6\).jpg");
+    background-image: url("public/image (6).jpg");
 }
 
 .box:nth-of-type(8) {
-    background-image: url("/image\ \(8\).jpg");
+    background-image: url("public/image (8).jpg");
 }
 
 .box:nth-of-type(9) {
-    background-image: url("/image\ \(9\).jpg");
+    background-image: url("public/image (9).jpg");
 }
 
 .box:nth-of-type(10) {
-    background-image: url("/image\ \(10\).jpg");
+    background-image: url("public/image (10).jpg");
 }
 
 .box:nth-of-type(11) {
-    background-image: url("/image\ \(11\).jpg");
+    background-image: url("public/image (11).jpg");
 }
 
 .images {
     height: fit-content;
     margin-top: 150px;
-    background-image: url("/22.png");
+    background-image: url("public/22.png");
     transition: all 2s ease;
     padding: 0px 10px;
 }

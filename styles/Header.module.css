@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/shutterstock_730964005.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("public/shutterstock_730964005.jpg");
     width: 100%;
     min-width: 271px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
